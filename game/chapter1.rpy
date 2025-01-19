@@ -8,6 +8,8 @@ label chapter_1:
     return
 
 label chapter_1_scene_1:
+    # Ren wakes up in the car and speaks with his dad.
+
     "Chapter 1, Scene 1"
 
     show black with long_dissolve
@@ -58,6 +60,12 @@ label chapter_1_scene_1:
     return
 
 label chapter_1_scene_2:
+    # Ren and dad arrive in town (at the inn), speak with family
+    # Ren runs into Akari helping out to renovate the inn, speaks
+    # with her
+
+    # TODO Inn asset
+
     "Chapter 1, Scene 2"
 
     "When you arrive in town, memories come flooding back to you, good and bad."
@@ -78,6 +86,9 @@ label chapter_1_scene_4:
     return
 
 label chapter_1_scene_5:
+    # Ren and Akari talk about Kano
+    # Ren decides to help Akari
+
     "Chapter 1, Scene 5"
     scene room_background with long_dissolve
 

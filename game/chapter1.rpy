@@ -1,4 +1,7 @@
 label chapter_1:
+    # Ren arrives in town and begins to help with renovations
+    # Akari comes to him with a proposal to help Kano, their
+    # long time friend. Ren eventually accepts her offer.
     call chapter_1_scene_1
     call chapter_1_scene_2
     call chapter_1_scene_3
@@ -68,21 +71,84 @@ label chapter_1_scene_2:
 
     "Chapter 1, Scene 2"
 
+    r "I can't even remember how long it's been..."
+    
     "When you arrive in town, memories come flooding back to you, good and bad."
 
-    show black with long_dissolve
+    scene room_inn with long_dissolve
+
+    "When you enter the inn, you immediately spot your mom."
+
+    show mom with short_dissolve
+
+    m "Hey honey! I missed you so much!"
+
+    r "Hey, [m]! I missed you too. How've you been?"
+
+    m "Your father and I have been hanging in there. You know it's been hard since grandma passed away, but we're managing. How about you, sweetie?"
+
+    r "I've been well! Just same old same old, you know?"
+
+    m "I hear you there!"
+
+    hide mom with short_dissolve
+
+    "You notice someone in the corner."
+
+    r "[a]! What are you doing here?"
+
+    show akari with short_dissolve
+
+    a "Hey [r]! It's been so long! Your family asked me to help out with the renovations, and I thought that I should be here when you came!"
+
+    r "I'm so happy to see you! How have you been?"
+
+    a "I've been good! School's been taking up most of my time, but I'm really glad I decided to come help out for the summer. I made so many memories here..."
+
+    r "We all did."
+
+    a "Yeah..."
+
+    r "Well, we should talk more sometime soon!"
+
+    a "Sounds good! Does tonight work?"
+    
+    r "Sure thing. Usual spot?"
+
+    a "Sure."
+
+    scene black with long_dissolve
     return
 
 label chapter_1_scene_3:
-    "Chapter 1, Scene 3"
+    # Ren and Akari meet up in the forest where they used to hang out
+    # as children, they have a sweet moment before the topic turns
+    # to the incident that occured when they were children and the
+    # conversation turns sour.
 
-    show black with long_dissolve
+    # TODO Forest asset
+
+    "Chapter 1, Scene 3"
+    
+    scene bg_forest with long_dissolve
+
+    "As you walk towards the abandoned bench in the clearing in the forest, you spot a lone figure situated upon it. It's [a]."
+
+    show akari with short_dissolve
+
+    a "Oh hey, you finally came."
+
+    r "Yeah... sorry about the wait."
+
+    a "No worries."
+
+    scene black with long_dissolve
     return
 
 label chapter_1_scene_4:
     "Chapter 1, Scene 4"
 
-    show black with long_dissolve
+    scene black with long_dissolve
     return
 
 label chapter_1_scene_5:

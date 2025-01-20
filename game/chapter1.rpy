@@ -1,12 +1,10 @@
 label chapter_1:
     # Ren arrives in town and begins to help with renovations
-    # Akari comes to him with a proposal to help Kano, their
-    # long time friend. Ren eventually accepts her offer.
+    # He meets up with long time friend Akari and they begin
+    # to rekindle their relationship
     call chapter_1_scene_1
     call chapter_1_scene_2
     call chapter_1_scene_3
-    call chapter_1_scene_4
-    call chapter_1_scene_5
 
     return
 
@@ -71,9 +69,14 @@ label chapter_1_scene_2:
 
     "Chapter 1, Scene 2"
 
+    scene bg_carride with long_dissolve
+
     r "I can't even remember how long it's been..."
     
-    "When you arrive in town, memories come flooding back to you, good and bad."
+    "When you arrive in town, memories come flooding back to you, both good and bad."
+
+    "You make your way to the inn with your dad. It seems that work is starting early for you."
+    "{i}At least{/i}, you think, {i}I'll have some time with family where I don't have to worry about everything else.{/i}"
 
     scene room_inn with long_dissolve
 
@@ -142,51 +145,43 @@ label chapter_1_scene_3:
 
     a "No worries."
 
-    scene black with long_dissolve
-    return
+    "You take a seat next to her, enjoying the subtle warmth of her body against the crisp autumn air."
 
-label chapter_1_scene_4:
-    "Chapter 1, Scene 4"
+    r "So how have you been, really?"
 
-    scene black with long_dissolve
-    return
-
-label chapter_1_scene_5:
-    # Ren and Akari talk about Kano
-    # Ren decides to help Akari
-
-    "Chapter 1, Scene 5"
-    scene room_background with long_dissolve
-
-    show akari with short_dissolve
-
-    r "I don't know, [a]."
-
-    a "What's not to know?"
+    a "Well... you know..."
+    "She gives a weak smile."
+    a "Things have been tough... Y'know with [k] how he is and everything. I've been trying so hard to get him back on track but it seems like nothing I do is working."
     
-    r "I came back for my family... I just don't know if I can do this."
-    r "I haven't talked to [k] in years... I don't know what he's going through. I doubt I'll even be able to get through to him."
+    r "I'm sorry to hear that. You know that I'll always be here for you, right?"
 
-    a "But it's worth trying."
-    a "He's still your friend, you know."
+    a "Of course."
 
-    r "Yeah. I know."
-    r "It's just that ever since... you know... he just hasn't been the same."
+    r "How are you handling everything?"
 
-    a "I know. Which is why we're trying to help him."
-    a "He {i}needs{/i} our help, [r]."
+    a "Alright I suppose. Sobriety's been kicking my ass lately though."
 
-    r "Alright... I guess you're right. But I just don't know if I can do this."
-    r "Right now I need to focus on helping out my family. That's what I came here for."
+    r "At least you're trying"
+    "You turn and give her a small hug."
+    r "I'm proud of you, [a]. I really am."
 
-    a "I know, [r], but [k] also needs our help, and now that you're here, maybe he'll listen to you."
-    a "I've tried to help him on my own for years and I can never seem to get through to him, but you two had something special, and I'm willing to bet that you can get through to him where I can't."
+    a "Thank you. It's taken a lot for me to get this far and I'm just glad to have made it... no matter what happened before."
 
-    r "Maybe..."
-    r "..."
-    r "Alright. I'll help you, but I need to focus on my family first, got it?"
+    r "Yeah... poor [k]. I can't even imagine how tough that was for him..."
 
-    a "Got it. Now let's go get something to eat, I'm starving."
+    a "I'd rather not talk about it any more."
+    "She turns away sheepishly."
+
+    r "Alright, alright. Sorry about that."
+
+    a "It's fine."
+    "It's clear to you that it isn't."
+
+    "After a few more minutes spent cozied up in the piercing silence, you decide that it's time to head out."
+
+    r "Should we get going? It's getting pretty cold out here."
+
+    a "Yeah... Let's head out."
 
     scene black with long_dissolve
     return

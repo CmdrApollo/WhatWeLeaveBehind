@@ -112,13 +112,25 @@ label chapter_1_scene_2:
 
     a "Yeah..."
 
-    r "Well, we should talk more sometime soon!"
+    r "Well..."
 
-    a "Sounds good! Does tonight work?"
+    r "I have to go put my stuff away."
+
+    r "I have a lot of stuff to check on first, but would you like to talk more later?"
     
-    r "Sure thing. Usual spot?"
+    a "Yeah, I'd love that. Did you want to meet..."
+    
+    r "At the usual spot?"
 
-    a "Sure."
+    a "That would be perfect. I'll see you later..."
+
+    a "And [r]?"
+
+    r "Yeah?"
+
+    a "I missed you."
+
+    r "I missed you too."
 
     scene black with long_dissolve
     return

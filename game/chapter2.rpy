@@ -1,13 +1,31 @@
 label chapter_2:
-    # Akari comes to Ren with a proposition to help Kano
-    # Ren eventually agrees to help her out
+    # Ren and Akari rekindle their relationship further while
+    # Ren continues to help renovate the Inn. They talk about
+    # Kano and how to help him. Ren decides to help Akari get
+    # Kano back in gear.
     call chapter_2_scene_1
     call chapter_2_scene_2
 
     return
 
 label chapter_2_scene_1:
+    # Introduce Mr. Takahashi.
     "Chapter 2, Scene 1"
+
+    scene street with long_dissolve
+
+    show takahashi with short_dissolve:
+        subpixel True zoom 0.75
+        pos (540, 115)
+
+    "One day, while walking outside the diner, you spot your old neighbor, [t]."
+
+    r "Hi, [t]!"
+    
+    t "Hello, [r]!"
+    t "How've you been?"
+
+    "He chuckles to himself, pleased by the rhyme."
 
     scene black with long_dissolve
     return
@@ -17,9 +35,11 @@ label chapter_2_scene_2:
     # Ren decides to help Akari
 
     "Chapter 2, Scene 2"
-    scene room_background with long_dissolve
+    scene bedroom with long_dissolve
 
-    show akari with short_dissolve
+    show akari with short_dissolve:
+        subpixel True zoom 0.75
+        pos (540, 115)
 
     r "I don't know, [a]."
 

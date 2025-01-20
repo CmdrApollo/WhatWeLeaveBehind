@@ -4,9 +4,9 @@ Wake up, sleepy head, we're almost there.
 You stir as he reaches over and shakes you gently.
 Open your eyes?
 You decide to bask in the moment for a little while longer.
-When you open your eyes, you find yourself in your family's Station-Wagon. It's a familiar car that brings back a lot of memories for you. The interior smells subtly of pine resin, a common scent where you're headed.
-Earlier in the day, your dad picked you up from the airport. You are [r], a college student traveling home for the summer to your quaint hometown that seemingly inhabits the middle of nowhere.
-Apparently, you fell asleep in the car, which you didn't anticipate. However, you suppose that you needed the rest and shrug it off.
+When you open your eyes, you find yourself in a fairly empty train car, rattling along the tracks per usual.
+Earlier in the day, your dad met you at the airport. You are [r], a college student traveling home for the summer to your quaint hometown that seemingly inhabits the middle of nowhere.
+Apparently, you fell asleep on the ride there, which you didn't anticipate. However, you suppose that you needed the rest and shrug it off.
 How much longer?
 I'd say 5 minutes or so.
 Ok...
@@ -20,10 +20,67 @@ Yeah...
 [a] and [k]?
 We've seen [a] around here and there but [k] still seems to be shut away all the time. Poor kid...
 Chapter 1, Scene 2
-When you arrive in town, memories come flooding back to you, good and bad.
+I can't even remember how long it's been...
+When you arrive in town, memories come flooding back to you, both good and bad.
+You make your way to the inn with your dad. It seems that work is starting early for you.
+{i}At least{/i}, you think, {i}I'll have some time with family where I don't have to worry about everything else.{/i}
+When you enter the inn, you immediately spot your mom.
+Hey honey! I missed you so much!
+Hey, [m]! I missed you too. How've you been?
+Your father and I have been hanging in there. You know it's been hard since grandma passed away, but we're managing. How about you, sweetie?
+I've been well! Just same old same old, you know?
+I hear you there!
+You notice someone in the corner.
+[a]! What are you doing here?
+Hey [r]! It's been so long! Your family asked me to help out with the renovations, and I thought that I should be here when you came!
+I'm so happy to see you! How have you been?
+I've been good! School's been taking up most of my time, but I'm really glad I decided to come help out for the summer. I made so many memories here...
+We all did.
+Yeah...
+Well...
+I have to go put my stuff away.
+I have a lot of stuff to check on first, but would you like to talk more later?
+Yeah, I'd love that. Did you want to meet...
+At the usual spot?
+That would be perfect. I'll see you later...
+And [r]?
+Yeah?
+I missed you.
+I missed you too.
 Chapter 1, Scene 3
-Chapter 1, Scene 4
-Chapter 1, Scene 5
+As you walk towards the abandoned temple, you spot a lone figure in the shadows. It's [a].
+Oh hey, you finally came.
+Yeah... sorry about the wait.
+No worries.
+You take a seat on the ground next to her, enjoying the subtle warmth of her body against the crisp autumn air.
+So how have you been, really?
+Well... you know...
+She gives a weak smile.
+Things have been tough... Y'know with [k] how he is and everything. I've been trying so hard to get him back on track but it seems like nothing I do is working.
+I'm sorry to hear that. You know that I'll always be here for you, right?
+Of course.
+How are you handling everything?
+Alright I suppose. Sobriety's been kicking my ass lately though.
+At least you're trying
+You turn and give her a small hug.
+I'm proud of you, [a]. I really am.
+Thank you. It's taken a lot for me to get this far and I'm just glad to have made it... no matter what happened before.
+Yeah... poor [k]. I can't even imagine how tough that was for him...
+I'd rather not talk about it any more.
+She turns away sheepishly.
+Alright, alright. Sorry about that.
+It's fine.
+It's clear to you that it isn't.
+After a few more minutes spent cozied up in the piercing silence, you decide that it's time to head out.
+Should we get going? It's getting pretty cold out here.
+Yeah... Let's head out.
+Chapter 2, Scene 1
+One day, while walking outside the diner, you spot your old neighbor, [t].
+Hi, [t]!
+Hello, [r]!
+How've you been?
+He chuckles to himself, pleased by the rhyme.
+Chapter 2, Scene 2
 I don't know, [a].
 What's not to know?
 I came back for my family... I just don't know if I can do this.

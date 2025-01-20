@@ -11,6 +11,12 @@ define m = Character("Mom", color="#ffff80")
 define short_dissolve = Dissolve(0.5)
 define long_dissolve = Dissolve(1.0)
 
+image street = "Street_Autumn_Day.png"
+image bedroom = "Bedroom_Day.png"
+image train = "Train_Day.png"
+image diner = "Restaurant_B.png"
+image temple = "Temple_Summer_Night.png"
+
 label splashscreen:
     scene black
     with Pause(1)

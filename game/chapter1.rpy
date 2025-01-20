@@ -28,11 +28,11 @@ label chapter_1_scene_1:
         "Not yet.":
             "You decide to bask in the moment for a little while longer."
 
-    scene bg_carride with long_dissolve
+    scene train with long_dissolve
 
-    "When you open your eyes, you find yourself in your family's Station-Wagon. It's a familiar car that brings back a lot of memories for you. The interior smells subtly of pine resin, a common scent where you're headed."
-    "Earlier in the day, your dad picked you up from the airport. You are [r], a college student traveling home for the summer to your quaint hometown that seemingly inhabits the middle of nowhere."
-    "Apparently, you fell asleep in the car, which you didn't anticipate. However, you suppose that you needed the rest and shrug it off."
+    "When you open your eyes, you find yourself in a fairly empty train car, rattling along the tracks per usual."
+    "Earlier in the day, your dad met you at the airport. You are [r], a college student traveling home for the summer to your quaint hometown that seemingly inhabits the middle of nowhere."
+    "Apparently, you fell asleep on the ride there, which you didn't anticipate. However, you suppose that you needed the rest and shrug it off."
 
     r "How much longer?"
 
@@ -65,11 +65,9 @@ label chapter_1_scene_2:
     # Ren runs into Akari helping out to renovate the inn, speaks
     # with her
 
-    # TODO Inn asset
-
     "Chapter 1, Scene 2"
 
-    scene bg_carride with long_dissolve
+    scene street with long_dissolve
 
     r "I can't even remember how long it's been..."
     
@@ -78,11 +76,15 @@ label chapter_1_scene_2:
     "You make your way to the inn with your dad. It seems that work is starting early for you."
     "{i}At least{/i}, you think, {i}I'll have some time with family where I don't have to worry about everything else.{/i}"
 
-    scene room_inn with long_dissolve
+    scene diner with long_dissolve
 
     "When you enter the inn, you immediately spot your mom."
 
-    show mom with short_dissolve
+    
+    show mom with short_dissolve:
+        subpixel True zoom 0.75
+        pos (300, 115)
+
 
     m "Hey honey! I missed you so much!"
 
@@ -100,7 +102,9 @@ label chapter_1_scene_2:
 
     r "[a]! What are you doing here?"
 
-    show akari with short_dissolve
+    show akari with short_dissolve:
+        subpixel True zoom 0.75
+        pos (540, 115)
 
     a "Hey [r]! It's been so long! Your family asked me to help out with the renovations, and I thought that I should be here when you came!"
 
@@ -113,9 +117,7 @@ label chapter_1_scene_2:
     a "Yeah..."
 
     r "Well..."
-
     r "I have to go put my stuff away."
-
     r "I have a lot of stuff to check on first, but would you like to talk more later?"
     
     a "Yeah, I'd love that. Did you want to meet..."
@@ -123,7 +125,6 @@ label chapter_1_scene_2:
     r "At the usual spot?"
 
     a "That would be perfect. I'll see you later..."
-
     a "And [r]?"
 
     r "Yeah?"
@@ -141,15 +142,15 @@ label chapter_1_scene_3:
     # to the incident that occured when they were children and the
     # conversation turns sour.
 
-    # TODO Forest asset
-
     "Chapter 1, Scene 3"
     
-    scene bg_forest with long_dissolve
+    scene temple with long_dissolve
 
-    "As you walk towards the abandoned bench in the clearing in the forest, you spot a lone figure situated upon it. It's [a]."
+    "As you walk towards the abandoned temple, you spot a lone figure in the shadows. It's [a]."
 
-    show akari with short_dissolve
+    show akari with short_dissolve:
+        subpixel True zoom 0.75
+        pos (540, 115)
 
     a "Oh hey, you finally came."
 
@@ -157,12 +158,14 @@ label chapter_1_scene_3:
 
     a "No worries."
 
-    "You take a seat next to her, enjoying the subtle warmth of her body against the crisp autumn air."
+    "You take a seat on the ground next to her, enjoying the subtle warmth of her body against the crisp autumn air."
 
     r "So how have you been, really?"
 
     a "Well... you know..."
+
     "She gives a weak smile."
+
     a "Things have been tough... Y'know with [k] how he is and everything. I've been trying so hard to get him back on track but it seems like nothing I do is working."
     
     r "I'm sorry to hear that. You know that I'll always be here for you, right?"
@@ -174,7 +177,9 @@ label chapter_1_scene_3:
     a "Alright I suppose. Sobriety's been kicking my ass lately though."
 
     r "At least you're trying"
+
     "You turn and give her a small hug."
+
     r "I'm proud of you, [a]. I really am."
 
     a "Thank you. It's taken a lot for me to get this far and I'm just glad to have made it... no matter what happened before."
@@ -182,11 +187,13 @@ label chapter_1_scene_3:
     r "Yeah... poor [k]. I can't even imagine how tough that was for him..."
 
     a "I'd rather not talk about it any more."
+
     "She turns away sheepishly."
 
     r "Alright, alright. Sorry about that."
 
     a "It's fine."
+
     "It's clear to you that it isn't."
 
     "After a few more minutes spent cozied up in the piercing silence, you decide that it's time to head out."

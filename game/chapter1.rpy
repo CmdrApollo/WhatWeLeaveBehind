@@ -13,7 +13,7 @@ label chapter_1_scene_1:
 
     "Chapter 1, Scene 1"
 
-    show black with long_dissolve
+    scene black with long_dissolve
 
     d "Hey."
     d "Wake up, sleepy head, we're almost there."
@@ -44,7 +44,7 @@ label chapter_1_scene_1:
 
     r "Of course."
 
-    "Your grandmother recently passed and left behind an old inn that she cherished for many years. It was her pride and joy. It seemed as if her very soul still lived within that inn. However, after all the years of wear and tear, the inn was worse for wear."
+    "Your grandmother recently passed and left behind an old,  that she cherished for many years. It was her pride and joy. It seemed as if her very soul still lived within that inn. However, after all the years of wear and tear, the inn was worse for wear."
     "And so, your family has decided to renovate the inn in order to keep her memory alive and to continue on their family business. Since you'll be home for the summer, you've been recruited to help as well."
 
     r "How've you and [m] been?"
@@ -57,7 +57,7 @@ label chapter_1_scene_1:
 
     d "We've seen [a] around here and there but [k] still seems to be shut away all the time. Poor kid..."
 
-    show black with long_dissolve
+    scene black with long_dissolve
     return
 
 label chapter_1_scene_2:
@@ -84,7 +84,6 @@ label chapter_1_scene_2:
     show mom with short_dissolve:
         subpixel True zoom 0.75
         pos (300, 115)
-
 
     m "Hey honey! I missed you so much!"
 
